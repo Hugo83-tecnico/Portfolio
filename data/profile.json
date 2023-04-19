@@ -1,0 +1,63 @@
+{
+  "name": "Hugo S Gomes",
+  "photo": "https://avatars.githubusercontent.com/u/59586259?v=4",
+  "job": "Em busca de estágio",
+  "location": "Canoas-RS-BR",
+  "phone": "(51) 9 9726-0242",
+  "email": "hugo83_tecnico@hotmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "https://github.com/Portfolio-Profissional/blob/master/data/imgs/html.png"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://github.com/Portfolio-Profissional/blob/master/data/imgs/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://github.com/Portfolio-Profissional/blob/master/data/imgs/js.png"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "eeeeeeeeeeee",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "eeeeeeeeeee",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Técnico de Manutenção Eletronico/ Sthil Ferrementas Motorizadas",
+      "period": "Abril de 2015 - Junho de 2022",
+      "description": "Técnico de Manutenção Eletrônico no setor de cortes (sabres), responsável pela manutenção corretiva e preventiva de máquinas de corte a laser, retificas, CNC's,tratamento térmico e robôs Fanuc.No setor de corte participei de retrofit's de máquina empregando tecnologias mais atuais na parte de CLP's e IHM's da linha Siemens com rede de comunicação profinet e onde também pude realizar juntamente com equipe de manutenção melhorias de processo para otimizar setup's de máquina."
+    },
+    {
+      "name": "Técnico de Manutenção Eletronico/ General Motors",
+      "period": "Agosto de 2013 - Fevereiro de 2015",
+      "description": "Na General Motors trabalhei no setor de estamparia e tive oprtunidade de conhcer máquinas de empresas como Schuller e Komatsu que atuam no seguimento de prensas. Trabalhando em empresa automobilista pude ampliar conhecimentos em automação industrial e enxergando de maneira organizada a integração de Robos, CLP's, IHM's, inversores e estrutura de comunicação Ethernet."
+    },
+    {
+      "name": "Técnico de Manutenção Eletronico/ Soluções em Aço Usiminas",
+      "period": "Janeiro de 2007 - julho de 2013",
+      "description": "Iniciei minhas funções na manutenção elétrica assumindo dois setores de produção cortes de tiras e cortes de chapas. Acompanhando o processo diariamente, minha percepção como técnico evoluiu muito, com isso pude atuar melhor nos pontos críticos nas manutenções preventivas, e sssim reduzindo a manutenção corretiva. Com o trabalho realizado nas linhas de cortes de chapas recebi a oportunidade de participar na manutenção de máquinas de fabricação de tubos com costura no qual adquiri conhecimentos em geradores de alta frequência utilizando sistema de válvula tríodo, conversores CA/CC, motores de corrente continua, inversores e válvulas proporcional."
+    }
+  ]
+}
