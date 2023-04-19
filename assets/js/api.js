@@ -5,3 +5,4 @@ async function fetchProfileData(){
     
     return await fetching.json();
 }
+
