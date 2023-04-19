@@ -9,15 +9,15 @@
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "https://github.com/Hugo83-tecnico/Portfolio/blob/master/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/Hugo83-tecnico/Portfolio/master/data/imgs/html.png"
       },
       {
         "name": "CSS3",
-        "logo": "https://github.com/Hugo83-tecnico/Portfolio/blob/master/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/Hugo83-tecnico/Portfolio/master/data/imgs/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://github.com/Hugo83-tecnico/Portfolio/blob/master/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/Hugo83-tecnico/Portfolio/master/data/imgs/js.png"
       }
     ],
     "softSkills": [
