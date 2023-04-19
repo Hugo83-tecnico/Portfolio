@@ -50,8 +50,8 @@ function updateProfilePortfolio(profileData){
     portfolio.innerHTML = profileData.portfolio.map(project => 
         `
         <li>
-            <span ${project.github} ? 'class="gitHub"' : ''>${project.name}</span>
-            <a href="${project.url}" target="_blank">wwww.google.com.br</a>
+            <span ${project.github ? 'class="gitHub"' : ''}>${project.name}</span>
+            <a href="${project.url}" target="_blank">${project.url}</a>
         </li>
 
         `
