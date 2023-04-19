@@ -34,7 +34,7 @@ function updateHardSkills(profileData){
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join(''); 
 }
 
-function updateProfileLanguage(profileData){
+function updateLanguage(profileData){
     const language = document.getElementById('profile__language')
     language.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
    
@@ -45,12 +45,12 @@ function updateHardSkills(profileData){
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join(''); 
 }
 
-function updateProfilePortfolio(profileData){
+function updatePortfolio(profileData){
     const portfolio = document.getElementById('profile__portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => 
         `
         <li>
-            <span ${project.github ? 'class="gitHub"' : ''}>${project.name}</span>
+            <span ${project.github ? 'class="title__portfolio gitHub"' : ''}>${project.name}</span>
             <a href="${project.url}" target="_blank">${project.url}</a>
         </li>
 
@@ -58,12 +58,28 @@ function updateProfilePortfolio(profileData){
     ).join('')
 }
 
+function updateProfessionalExperience(profileData){
+    const experience = document.getElementById('profile__experience')
+    experience.innerHTML = profileData.professionalExperience.map(jobs => 
+        `
+        <li>
+            <h3 class="title__experience">${jobs.name}</h3>
+            <span class="period__experience">${jobs.period}</span>
+            <p>${jobs.description}</p>
+        </li>
+
+        `
+    ).join('')
+}
+
+
 // Criar uma função imediatamente invocada
 (async() =>{
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
-    updateProfileLanguage(profileData);
-    updateProfilePortfolio(profileData)
+    updateLanguage(profileData);
+    updatePortfolio(profileData);
+    updateProfessionalExperience(profileData)
 })()

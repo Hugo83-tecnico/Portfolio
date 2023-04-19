@@ -7,8 +7,8 @@
     list-style: none;
 }
 
-.experience .title__experience{
-    margin: 0.5rem;
+.experience {
+    margin: 0 2.5rem;
 }
 
 .experience li .period__experience{

@@ -13,21 +13,15 @@
 .portfolio li{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin: 0.5rem 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
-.portfolio li .title__portfolio{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.portfolio li span{
     font-size: 1.2rem;
     font-weight: 700;
-    margin: 0;
-    margin-bottom: 0.5rem;
-
-    
 }
+
 
 
 .portfolio li a:hover{
@@ -44,4 +38,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('https://raw.githubusercontent.com/Hugo83-tecnico/Portfolio/master/data/imgs/git.png');
+}
+
+@media screen and (min-width:768px) {
+    .portfolio li{
+        margin-bottom: 1rem;
+        margin-left: 2.5rem;
+    }
 }
