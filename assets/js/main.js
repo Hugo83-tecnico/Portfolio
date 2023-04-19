@@ -40,6 +40,24 @@ function updateProfileLanguage(profileData){
    
 }
 
+function updateHardSkills(profileData){
+    const hardSkills = document.getElementById('profile__hardSkills')
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join(''); 
+}
+
+function updateProfilePortfolio(profileData){
+    const portfolio = document.getElementById('profile__portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return
+        `
+        <li>
+            <span class="title__portfolio gitHub">${project.name}</span>
+            <a href="${project.url}" target="_blank">wwww.google.com.br</a>
+        </li>
+
+        `
+    }); 
+}
 
 // Criar uma função imediatamente invocada
 (async() =>{
@@ -48,4 +66,5 @@ function updateProfileLanguage(profileData){
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
     updateProfileLanguage(profileData);
+    updateProfilePortfolio(profileData)
 })()
