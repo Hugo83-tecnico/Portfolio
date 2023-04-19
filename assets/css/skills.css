@@ -27,6 +27,12 @@
     
 }
 
+.skills .tools #profile__hardSkills img{
+    max-width: 50px;
+    max-height: 50px;
+
+}
+
 .skills .personal__skills ul li::before{
     content: '';
     display: inline-block;

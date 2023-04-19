@@ -33,13 +33,13 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "eeeeeeeeeeee",
+      "name": "Criação de uma Pokedex (curso javaScript pela Dio.me) ",
+      "url": "https://github.com/Hugo83-tecnico/Desenvolvendo_Pokedex.git",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "eeeeeeeeeee",
+      "name": "Recriando a página web HBOMAX (curso CSS3 pela Dio.me)",
+      "url": "https://github.com/Hugo83-tecnico/Desafio-recriando-pagina-HBO.git",
       "github": true
     }
   ],

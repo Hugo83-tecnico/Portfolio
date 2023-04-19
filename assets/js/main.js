@@ -28,11 +28,17 @@ function updateSoftSkills(profileData){
     const softSkills = document.getElementById('profile__softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(''); 
 }
+
 function updateHardSkills(profileData){
     const hardSkills = document.getElementById('profile__hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.logo}"></li>`).join(''); 
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join(''); 
 }
 
+function updateProfileLanguage(profileData){
+    const language = document.getElementById('profile__language')
+    language.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
+   
+}
 
 
 // Criar uma função imediatamente invocada
@@ -41,4 +47,5 @@ function updateHardSkills(profileData){
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
+    updateProfileLanguage(profileData);
 })()
