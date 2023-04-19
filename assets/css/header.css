@@ -65,7 +65,7 @@
 }
 
 .information .job::before{
-    background-image:  url('.../img/icons/job.svg');
+    background-image:  url('../img/icons/job.svg');
 }
 
 .information .location::before{
