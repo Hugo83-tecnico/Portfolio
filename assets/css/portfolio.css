@@ -35,7 +35,7 @@
     text-decoration: underline;
 }
 
-.portfolio li .title__portfolio.gitHub::before{
+.gitHub::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -43,5 +43,5 @@
     margin-right: 0.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/github.svg');
+    background-image: url('https://raw.githubusercontent.com/Hugo83-tecnico/Portfolio/master/data/imgs/git.png');
 }

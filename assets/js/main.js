@@ -47,16 +47,15 @@ function updateHardSkills(profileData){
 
 function updateProfilePortfolio(profileData){
     const portfolio = document.getElementById('profile__portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
-        return
+    portfolio.innerHTML = profileData.portfolio.map(project => 
         `
         <li>
-            <span class="title__portfolio gitHub">${project.name}</span>
+            <span ${project.github} ? 'class="gitHub"' : ''>${project.name}</span>
             <a href="${project.url}" target="_blank">wwww.google.com.br</a>
         </li>
 
         `
-    }); 
+    ).join('')
 }
 
 // Criar uma função imediatamente invocada
